@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>nEspresso - All posts</title>
+    <link href="Feed root/rss.xml" rel="self" />
+    <link href="Feed root" />
+    <id>Feed root/rss.xml</id>
+    <author>
+        <name>Feed author name</name>
+        <email>Feed author email</email>
+    </author>
+    <updated>Unknown</updated>
+    
+</feed>

@@ -1,0 +1,172 @@
+
+html
+{
+  color       : rgb(101,123,131);
+  background  : rgb(238,232,213);
+  font-size   : 22px;
+  line-height : 1.61803em;
+  font-family : "Old Standard TT", serif;
+}
+
+a:link
+{
+  color : rgb(220,50,47);
+}
+
+a:visited
+{
+  color : rgb(181,137,0);
+}
+
+a:hover
+{
+  color : rgb(133,153,0);
+}
+
+::selection
+{
+  background : rgb(0,43,54);
+  color      : rgb(131,148,150);
+}
+
+p
+{
+  text-align  : justify;
+  text-indent : 1.61803em;
+}
+
+h5 + p,
+h6 + p
+{
+  text-indent : 1.00000em;
+}
+
+strong
+{
+  font-weight : bold;
+}
+
+em
+{
+  font-style : italic;
+}
+
+body
+{
+  width         : 29.03444em;
+  margin        : auto;
+  margin-top    : 1.61803em;
+  margin-bottom : 17.94427em;
+  padding       : 1.61803em 1.61803em 1.61803em 1.61803em;
+  background    : rgb(253,246,227);
+}
+
+body > header
+{
+  height        : 2.61803em;
+  border-bottom : dotted 0.14590em rgb(238,232,213);
+}
+
+nav
+{
+  text-align : right;
+}
+
+#logo
+{
+  font-size    : 2.61803em;
+  font-variant : small-caps;
+  float        : left;
+}
+
+#metadata
+{
+  font-size  : 0.61803em;
+  text-align : right;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6
+{
+  font-weight   : bold;
+  line-height   : 1.00000em;
+  margin-top    : 1.61803em;
+  margin-bottom : 1.00000em;
+}
+
+h1,
+h2
+{
+  font-size : 2.61803em;
+}
+
+h3
+{
+  font-size : 1.61803em;
+}
+
+h4,
+h5,
+h6
+{
+  font-size : 1.00000em;
+}
+
+h1
+{
+  text-align : center;
+}
+
+h5,
+h6
+{
+  margin : 0;
+  float  : left;
+}
+
+h6
+{
+  text-indent : 1.61803em;
+}
+
+.post-list > ul
+{
+  list-style : none;
+  padding    : 0px;
+}
+
+.post-list > ul li
+{
+  padding-left  : 0.61803em;
+  padding-right : 0.61803em;
+}
+
+.post-list > ul li:nth-child(odd)
+{
+  background : rgb(238,232,213);
+}
+
+.post-list > ul li date
+{
+  float : right;
+}
+
+.tag-list
+{
+  text-align : center;
+}
+
+.display-math
+{
+  display       : block;
+  margin        : auto;
+  margin-top    : 0.38197em;
+  margin-bottom : 0.38197em;
+}
+
+
+/* Generated with Clay, http://fvisser.nl/clay */
