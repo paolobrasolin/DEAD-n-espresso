@@ -21,8 +21,8 @@ jQuery(document).ready(function($) {
       var yqlQuery = "q=" +encodeURIComponent("select * from htmlpost where url='http://www.quicklatex.com/latex3.f/' and postdata=\""+qlQuery+"\" and xpath=\"//p\"")
                    + "&format=json"
                    + "&env=" +encodeURIComponent("store://datatables.org/alltableswithkeys");
-      //console.log(qlQuery);
-      //console.log(yqlQuery);
+      console.log(qlQuery);
+      console.log(yqlQuery);
       $.ajax({
         url: 'http://query.yahooapis.com/v1/public/yql',
         dataType: 'json',
@@ -33,7 +33,7 @@ jQuery(document).ready(function($) {
         //global: false,
         success: function (response) {
           output = response.query.results.postresult.p;
-          //console.log(output);
+          console.log(output);
           if (output.length) {
             // Parse server response
             var pattern = /^(\S+)\s+(\S+)\s+(\S+)\s+(\S+)\s+(\S+)\s?([\S\s]*)/;
