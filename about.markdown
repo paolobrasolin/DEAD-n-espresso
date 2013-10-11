@@ -4,7 +4,7 @@ title: About
 
 # About
 
-Meep. Mep-meeep.
+Meep. Not Meep Meep.
 
 ## Manifesto
 
